@@ -7,8 +7,8 @@ from xml.etree import ElementTree
 
 db_port = 5432
 db_name = "wmca"
-db_user = "fme_server_write"
-db_pass = "tomcatFileScript43"
+db_user = ""
+db_pass = ""
 
 def test():
     con = psycopg2.connect(
